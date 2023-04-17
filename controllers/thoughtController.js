@@ -94,7 +94,7 @@ const thoughtController = {
       )
       .catch((err) => res.status(500).json(err));
   },
-  // Remove thought tag. This method finds the thought based on ID. It then updates the tags array associated with the app in question by removing it's tagId from the tags array.
+  
   removeReaction(req, res) {
     Thought.findOneAndUpdate(
       { _id: req.params.thoughtId },
