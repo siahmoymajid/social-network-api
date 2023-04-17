@@ -14,6 +14,8 @@
 
 ## Description
 
+API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list.
+
 ## Instalation
 
 You will need to install node packages
@@ -52,4 +54,8 @@ _WHEN I test API POST and DELETE routes in Insomnia_
 
 ## Repo Link
 
+[RepoLink](https://github.com/siahmoymajid/social-network-api)
+
 ## Screenshots
+
+![compass1](images/compass1.PNG)
