@@ -16,7 +16,11 @@ const thoughtController = {
           ? res.status(404).json({ message: "No thought with that ID" })
           : res.json(thought)
       )
-      .catch((err) => res.status(500).json(err));
+
+      .catch((err) => {
+        console.log(err);
+        res.status(500).json(err);
+      });
   },
   // Creates a new thought. Accepts a request body with the entire Thought object.
   // Because thoughts are associated with Users, we then update the User who created the app and add the ID of the thought to the thoughts array
@@ -94,7 +98,7 @@ const thoughtController = {
       )
       .catch((err) => res.status(500).json(err));
   },
-  
+
   removeReaction(req, res) {
     Thought.findOneAndUpdate(
       { _id: req.params.thoughtId },
