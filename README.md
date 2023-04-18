@@ -59,3 +59,9 @@ _WHEN I test API POST and DELETE routes in Insomnia_
 ## Screenshots
 
 ![compass1](images/compass1.PNG)
+![thoughts](images/thoughts.PNG)
+![users](images/users.PNG)
+
+## Note
+
+worked with a tutor and aso used ASKBCS
