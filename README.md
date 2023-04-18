@@ -64,4 +64,4 @@ _WHEN I test API POST and DELETE routes in Insomnia_
 
 ## Note
 
-worked with a tutor and aso used ASKBCS
+worked with a tutor and also used ASKBCS
